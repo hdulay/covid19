@@ -8,3 +8,9 @@ pip3 install requests
 pip3 install confluent_kafka
 python3 /project/producer.py
 ```
+
+## docker build
+
+```bash
+docker build git@github.com:hdulay/covid19.git --tag covid19
+```
